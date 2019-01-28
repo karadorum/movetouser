@@ -35,7 +35,9 @@ class Dialog(QtWidgets.QDialog):
         layout = QtWidgets.QFormLayout()
         layout.addRow(QtWidgets.QLabel("Item:"), QtWidgets.QLineEdit())
         layout.addRow(QtWidgets.QLabel("Url:"), QtWidgets.QLineEdit())
+        
         self.formGroupBox.setLayout(layout)
+        print(QtWidgets.QLineEdit("Item:"))
 
     
         
